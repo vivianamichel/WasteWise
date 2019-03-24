@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Viviana's Contribution</title>
+    <meta name="description" content="A free responsive website template made exclusively for Frittt by Themesforce and Sarfraz Shaukat">
+    <meta name="keywords" content="website template, css3, one page, bootstrap, app template, web app, start-up">
+    <meta name="author" content="Themesforce and Sarfraz Shaukat for Frittt">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <img src="https://southwalton.com/wp-content/uploads/2016/02/2012-10-08-15-clean-beach.jpg" id="picture" alt="">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+  <div id="wrapper">
+      <header id="header">
+          <div class="container">
+
+              <div class="heading-holder">
+
+        <h1 class="container" id="this" txt="">Viviana's Contributions</h1>
+        <div class="container">
+          <div class="row">
+            <div class="text-box col-md-offset-1 col-md-10">
+        <form method="POST" >
+          Enter contribution: <input name="user_contribution"/><br>
+          Enter amount: <input name="user_amount"/><br>
+          <input type="submit" name="button" action = "/home">
+        <p class = "tagline">
+      								{% for i in string %}
+      										Contribution: {{i.choice}}  | Amount: {{i.amount}} </br>
+      								{% endfor %}
+      							</p>
+        <p>Your Total Points: {{total}}</p>
+      </div>
+    </div>
+   </div>
+   </div>
+   </section>
+  </body>
+</html>

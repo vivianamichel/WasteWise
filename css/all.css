@@ -31,7 +31,15 @@ p {
   padding: 7px 24px; }
   .btn-link:hover {
     background: #e0e0e0; }
+    #picture {
+      position: fixed;
+      top: 0;
+      left: 0;
 
+      /* Preserve aspet ratio */
+      min-width: 100%;
+      min-height: 100%;
+    }
 #wrapper {
   width: 100%;
   height: 100%;
@@ -230,6 +238,13 @@ p {
     min-width: 390px; }
   #cta p {
     margin: 0 0 18px; }
+  #this {
+    font-size: 40px;
+    padding-left: 280px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #FFFFE0 ;
+  }
 
 .cta-list {
   margin: 0;
